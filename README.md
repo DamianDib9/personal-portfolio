@@ -2,8 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+ 
 
   <h3><b>Microverse Portfolio Page</b></h3>
 
@@ -174,4 +173,4 @@ I would like to thank all of my family for helping me trough this Microverse cou
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
