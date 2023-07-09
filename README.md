@@ -4,7 +4,7 @@
 
  
 
-  <h3><b>Microverse Portfolio Page</b></h3>
+  <h3><b>Microverse Portfolio Finish mobile Version</b></h3>
 
 </div>
 
@@ -34,7 +34,7 @@
 
 # 📖 Personal Portfolio <a name="about-project"></a>
 
-**Portfolio: setup and mobile first** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
+**Portfolio: finish mobile version** is a webpage built as a first project to showcase html and css,  skills gained during week 1 of the Microverse program.
 
 ## 🛠 Built With <a name="built-with"></a>
 
