@@ -70,9 +70,13 @@
                 <div></div>
             </div>
             <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic2.svg" alt="Tonic"></div>
+                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic2.svg" alt="Multi-Post Stories
+                    Copy
+                    "></div>
                 <div class="cardContent">
-                    <h3 class="cardsTitle">Tonic</h3>
+                    <h3 class="cardsTitle">Multi-Post Stories
+                        Copy
+                    </h3>
                     <ul class="subTitleList">
                         <li class="canopy">CANOPY</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
@@ -114,9 +118,13 @@
                 <div></div>
             </div>
             <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic4.svg" alt="Tonic"></div>
+                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic4.svg" alt="Multi-Post Stories
+                    Copy
+                    "></div>
                 <div class="cardContent">
-                    <h3 class="cardsTitle">Tonic</h3>
+                    <h3 class="cardsTitle">Multi-Post Stories
+                        Copy
+                    </h3>
                     <ul class="subTitleList">
                         <li class="canopy">CANOPY</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
@@ -136,7 +144,7 @@
                 <div></div>
             </div>
             <section class="about">
-                <h2 class="mainTitle">About Myself</h2>
+                <h2 id="mainSubt" class="mainTitle">About Myself</h2>
                 <p class="aboutP">I’m a software developer! I can help you build a product , feature or website Look
                     through some of my
                     work
@@ -166,7 +174,7 @@
 
                 <ul class="languages">
                     <div class="techTitles">
-                        <h4>Languages</h5> <img src="./img/tech logos/arrow down.svg" alt="arrow">
+                        <h4>Languages</h5> <img class="arrowSep" src="./img/tech logos/arrow down.svg" alt="arrow">
                     </div>
                     <li>
                         <ul class="desplTechList">
@@ -184,19 +192,54 @@
                     </li>
                     <li>
                         <ul class="techTitles" class="underline">
-                            <h4>Frameworks</h5> <img src="./img/tech logos/arrow right.svg" alt="arrow">
+                            <h4>Frameworks</h5> <img class="arrowSep" src="./img/tech logos/arrow right.svg" alt="arrow">
                         </ul>
                     </li>
                     <li>
                         <ul class="techTitles" class="underline">
-                            <h4>Skills</h5> <img src="./img/tech logos/arrow right.svg" alt="arrpw">
+                            <h4>Skills</h5> <img class="arrowSep" src="./img/tech logos/arrow right.svg" alt="arrpw">
                         </ul>
                     </li>
                 </ul>
+            </section>
+
+
+            <section class="contactMe">
+
+                <h2 id="contactTitle">Contact me</h2>
+                <p class="aboutP" id="contactP">If you have an application you are interested in developing, a feature
+                    that you need built or a project that needs coding.
+                    I’d love to help with it!</p>
+
+                <form action="https://formspree.io/f/xjvdryln" method="POST" id="contactForm">
+                    <div id="inlineInputs" class="inlineInputsStyle">
+                        <div class="shortInputs" id="firstInput">
+                            <!--   <label class="formLabels" for="yourName">Your Name</label> -->
+                            <input class="formInput" type="text" placeholder="Lorem Ipsum" maxlength="30"
+                                name="Your Name" id="yourName" required>
+                        </div>
+                        <div class="shortInputs" id="secondInput">
+                            <!-- <label class="formLabels" for="yourName">Email</label> -->
+                            <input class="formInput" type="email" placeholder="loremipsum@gmail.com" name="Your email"
+                                id="yourEmail"
+                                pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                                required>
+                        </div>
+                    </div>
+                    <!-- <label class="formLabels" id="messageLabel" for="yourName">Message</label> -->
+                    <textarea id="bigInput" type="text" placeholder="Write your message here..." maxlength="500"
+                        name="Message" cols="30" rows="10" required></textarea>
+                    <div id="buttonContainer"> <button type="submit" id="getInTouchButton" class="submit-button"
+                            class="seeProjectButton">Get in touch</button>
+                    </div>
+                </form>
+
             </section>
         </div>
     </section>
 
 </body>
+
+
 
 </html>
