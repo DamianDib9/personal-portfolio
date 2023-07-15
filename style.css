@@ -272,8 +272,8 @@ h3 {
   background-image: url(./img/background/contactFormBack.svg);
   background-repeat: no-repeat;
   background-position: right 0;
-  background-size: 50vw;
-  background-position-x: 12rem;
+  background-size: 55vw;
+  background-position-x: 11rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,6 +282,9 @@ h3 {
   font-weight: 700;
   font-size: 2.5rem;
   margin-top: 10rem;
+  margin-right: 4rem;
+  width: 100vw;
+  overflow: hidden;
 }
 
 #contactForm {
@@ -289,7 +292,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   width: 90vw;
-  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 #contactP {
@@ -298,24 +301,27 @@ h3 {
   text-align: center;
   line-height: 28px;
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #contactTitle {
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin-top: 5rem;
 }
 
 #yourName {
   font-size: 1.1rem;
-  color: #fe270a;
-  line-height: 20px;
+  color: #172b4d;
+  font-weight: 400;
+  line-height: 1.25rem;
   border-radius: 5px;
   border: 1px solid #cfd8dc;
   height: 3rem;
-  width: 90vw;
+  width: 83vw;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #yourEmail {
@@ -325,18 +331,23 @@ h3 {
   border-radius: 5px;
   border: 1px solid #cfd8dc;
   height: 3rem;
-  width: 90vw;
+  width: 83vw;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #bigInput {
-  font-size: 1.1rem;
-  color: #172b4d;
   line-height: 20px;
   border-radius: 5px;
   border: 1px solid #cfd8dc;
-  height: 7rem;
-  width: 90vw;
+  height: 6rem;
+  width: 83vw;
+  padding-left: 1rem;
   margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #172b4d;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #getInTouchButton {
@@ -346,9 +357,9 @@ h3 {
   color: #6070ff;
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 1rem;
+  padding: 0.8rem 1.5rem;
   margin-top: 0.9rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   align-items: left;
 }
 
