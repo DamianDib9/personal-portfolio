@@ -17,19 +17,27 @@
     <nav class="navBar">
         <a href="./index.html"><img id="logo" src="./img/icon/logo.svg" alt="logo"></a>
         <img id="hamburguerIcon" src="./img/icon/hamburguer.svg" alt="hamburguer-icon">
+        <div id="desktopMenu">
+            <ul id="desktopMenuButtons">
+                <li class="desktopMenuButtons"><a class="links" href="#portfolio">Portfolio</a></li>
+                <li class="desktopMenuButtons"><a class="links" href="#about">About</a></li>
+                <li class="desktopMenuButtons"><a class="links" href="#contactMe">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <main class="mainSection">
         <section class="main">
             <h1 class="mainTitle">I’m Damian.
                 Glad to see you!</h1>
-            <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
+            <p id="descriptiveP">I’m a software developer! I can help you build a product , feature or website Look
+                through some of my
                 work
                 and experience! If you like what you see and have a project you need coded, don’t hesitate to contact
                 me.
             </p>
 
-            <h3>LET’S CONNECT</h3>
+            <h3 id="letsConnect">LET’S CONNECT</h3>
             <ul id="iconListContainer">
                 <li><a href="https://twitter.com/DevBustros"><img class="iconList" src="./img/icon/twitter.svg"
                             alt="Twitter"></a></li>
@@ -44,11 +52,14 @@
             </ul>
         </section>
     </main>
-    <section class="worksSection">
+    <section id="portfolio" class="worksSection">
 
         <div class="cardsContainer">
             <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic1.svg" alt="Tonic"></div>
+                <div class="pictureContainer"><img class="pictures" id="hideOnDesktop1" src="./img/cards/Pic1.svg"
+                        alt="Tonic">
+                    <img class="pictures" id="hideOnMobile1" src="./img/cards/desk1.svg" alt="Tonic">
+                </div>
                 <div class="cardContent">
                     <h3 class="cardsTitle">Tonic</h3>
                     <ul class="subTitleList">
@@ -69,18 +80,21 @@
                 </div>
                 <div></div>
             </div>
-            <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic2.svg" alt="Multi-Post Stories
+            <div id="reverseCards1" class="card">
+                <div class="pictureContainer"><img id="hideOnDesktop2" class="pictures" src="./img/cards/Pic2.svg" alt="Multi-Post Stories
                     Copy
-                    "></div>
+                    ">
+                    <img class="pictures" id="hideOnMobile2" src="./img/cards/desk2.svg" alt="Tonic">
+                </div>
                 <div class="cardContent">
                     <h3 class="cardsTitle">Multi-Post Stories
-                        Copy
                     </h3>
                     <ul class="subTitleList">
-                        <li class="canopy">CANOPY</li>
+                        <li class="canopy" id="hideTextOnDesktop1">CANOPY</li>
+                        <li class="canopy" id="hideOnMobile6">FACEBOOK</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
-                        <li class="grayWords">Back End Dev</li>
+                        <li class="grayWords" id="backEndDevDesktop">Back End Dev</li>
+                        <li class="grayWords" id="hideOnMobile7">Full Stack Dev</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
                         <li class="grayWords">2015</li>
                     </ul>
@@ -96,11 +110,17 @@
                 <div></div>
             </div>
             <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic3.svg" alt="Tonic"></div>
+                <div class="pictureContainer"><img class="pictures" id="hideOnDesktop3" src="./img/cards/Pic3.svg"
+                        alt="Tonic">
+                    <img class="pictures" id="hideOnMobile3" src="./img/cards/desk3.svg" alt="Tonic">
+                </div>
                 <div class="cardContent">
-                    <h3 class="cardsTitle">Tonic</h3>
+                    <h3 class="cardsTitle" id="hideTextOnDesktop2">Tonic</h3>
+                    <h3 class="cardsTitle" id="hideTextOnMobile2">Facebok 360</h3>
                     <ul class="subTitleList">
-                        <li class="canopy">CANOPY</li>
+                        <li class="canopy" id="hideTextOnDesktop4">CANOPY</li>
+
+                        <li class="canopy" id="hideTextOnMobile4">FACEBOOK</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
                         <li class="grayWords">Back End Dev</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
@@ -117,18 +137,26 @@
                 </div>
                 <div></div>
             </div>
-            <div class="card">
-                <div class="pictureContainer"><img class="pictures" src="./img/cards/Pic4.svg" alt="Multi-Post Stories
+            <div id="reverseCards2" class="card">
+                <div class="pictureContainer"><img class="pictures" id="hideOnDesktop4" src="./img/cards/Pic4.svg" alt="Multi-Post Stories
                     Copy
-                    "></div>
+                    ">
+                    <img class="pictures" id="HidePIc1" src="./img/cards/desk4.svg" alt="Multi-Post Stories
+                    Copy
+                    ">
+                </div>
                 <div class="cardContent">
-                    <h3 class="cardsTitle">Multi-Post Stories
-                        Copy
+                    <h3 class="cardsTitle" id="hideTextOnDesktop5">Multi-Post Stories
+                    </h3>
+                    <h3 class="cardsTitle" id="hideTextOnMobile5">Uber Navigation
                     </h3>
                     <ul class="subTitleList">
-                        <li class="canopy">CANOPY</li>
+                        <li class="canopy" id="hideTextOnDesktop6">CANOPY</li>
+                        <li class="canopy" id="hideTextOnMobile6">Uber</li>
+
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
-                        <li class="grayWords">Back End Dev</li>
+                        <li class="grayWords" id="hideTextOnDesktop7">Back End Dev</li>
+                        <li class="grayWords" id="hideTextOnMobile7">Lead Developer</li>
                         <li><img class="dots" src="./img/cards/dot.svg" alt="dot"></li>
                         <li class="grayWords">2015</li>
                     </ul>
@@ -143,41 +171,42 @@
                 </div>
                 <div></div>
             </div>
-            <section class="about">
-                <h2 id="mainSubt" class="mainTitle">About Myself</h2>
-                <p class="aboutP">I’m a software developer! I can help you build a product , feature or website Look
-                    through some of my
-                    work
-                    and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                    contact
-                    me.
-                </p>
+            <section id="about" class="about">
+                <div class="aboutContent">
+                    <h2 id="mainSubt" class="mainTitle">About Myself</h2>
+                    <p class="aboutP">I’m a software developer! I can help you build a product , feature or website Look
+                        through some of my
+                        work
+                        and experience! If you like what you see and have a project you need coded, don’t hesitate to
+                        contact
+                        me.
+                    </p>
 
-                <h3>LET’S CONNECT</h3>
-                <ul id="iconListContainer">
-                    <li><a href="https://github.com/DamianDib9"><img class="iconList" src="./img/icon/guthub.svg"
-                                alt="github"></a></li>
-                    <li><a href="https://www.linkedin.com/in/damian-dib-bustros-953577261/"><img class="iconList"
-                                src="./img/icon/linkedin.svg" alt="Linkedin"></a></li>
-                    <li><a href="https://www.angellist.com/"><img class="iconList" src="./img/icon/peace.svg"
-                                alt="Peace"></a></li>
-                    <li><a href="https://twitter.com/DevBustros"><img class="iconList" src="./img/icon/twitter.svg"
-                                alt="Twitter"></a></li>
+                    <h3>LET’S CONNECT</h3>
+                    <ul id="iconListContainer">
+                        <li><a href="https://github.com/DamianDib9"><img class="iconList" src="./img/icon/guthub.svg"
+                                    alt="github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/damian-dib-bustros-953577261/"><img class="iconList"
+                                    src="./img/icon/linkedin.svg" alt="Linkedin"></a></li>
+                        <li><a href="https://www.angellist.com/"><img class="iconList" src="./img/icon/peace.svg"
+                                    alt="Peace"></a></li>
+                        <li><a href="https://twitter.com/DevBustros"><img class="iconList" src="./img/icon/twitter.svg"
+                                    alt="Twitter"></a></li>
 
-                    <li><a href="https://www.google.com/"><img class="iconList" src="./img/icon/mlogo.svg"
-                                alt="mlogo"></a>
-                    </li>
+                        <li><a href="https://www.google.com/"><img class="iconList" src="./img/icon/mlogo.svg"
+                                    alt="mlogo"></a>
+                        </li>
 
 
-                </ul>
-                <button class="seeProjectButton">Get my resume</button>
-
+                    </ul>
+                    <button class="seeProjectButton">Get my resume</button>
+                </div>
                 <ul class="languages">
                     <div class="techTitles">
                         <h4>Languages</h5> <img class="arrowSep" src="./img/tech logos/arrow down.svg" alt="arrow">
                     </div>
-                    <li>
-                        <ul class="desplTechList">
+                    <li id="hideonmobiledepltechlist">
+                        <ul class="desplTechList" id="desplTechList">
                             <li class="techDescr"><img class="logoPadding" src="./img/tech logos/js.svg"
                                     alt="JavasCript">
                                 <h5 class="techText">JavaScript</h5>
@@ -190,9 +219,19 @@
                             </li>
                         </ul>
                     </li>
+
+                    <ul id="hideondesktopdepltechlist">
+                        <li class="techDesktop"> <img class="imgProperty" src="./img/tech logos/js.svg" alt="js">
+                        <p>JavaScript</p></li>
+                        <li class="techDesktop"><img class="imgProperty" src="./img/tech logos/html.svg" alt="html">
+                        <p>HTML</p></li>
+                        <li class="techDesktop"><img class="imgProperty" src="./img/tech logos/css.svg" alt="css"> <p>CSS</p></li>
+                    </ul>
+                    
                     <li>
                         <ul class="techTitles" class="underline">
-                            <h4>Frameworks</h5> <img class="arrowSep" src="./img/tech logos/arrow right.svg" alt="arrow">
+                            <h4>Frameworks</h5> <img class="arrowSep" src="./img/tech logos/arrow right.svg"
+                                    alt="arrow">
                         </ul>
                     </li>
                     <li>
@@ -204,8 +243,8 @@
             </section>
 
 
-            <section class="contactMe">
-
+            <section id="contactMe" class="contactMe">
+<div id="contentContainer">
                 <h2 id="contactTitle">Contact me</h2>
                 <p class="aboutP" id="contactP">If you have an application you are interested in developing, a feature
                     that you need built or a project that needs coding.
@@ -233,7 +272,7 @@
                             class="seeProjectButton">Get in touch</button>
                     </div>
                 </form>
-
+            </div>
             </section>
         </div>
     </section>
