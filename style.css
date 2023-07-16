@@ -768,10 +768,12 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
   }
 
   #contactTitle {
     font-size: 2.5rem;
+    overflow: hidden;
   }
 
   #contactP {
@@ -784,6 +786,7 @@ h3 {
 
   #contactForm {
     width: 28rem;
+    overflow: hidden;
   }
 
   #buttonContainer {
