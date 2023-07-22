@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <p align="right">(<a href="https://mellow-cassata-728b9c.netlify.app/">Click here</a>)</p>
+- To see live Demo  <a href="https://mellow-cassata-728b9c.netlify.app/">Click here</a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
