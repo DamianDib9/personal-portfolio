@@ -8,6 +8,8 @@
 
 </div>
 
+
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -58,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
+- <p align="right">(<a href="https://mellow-cassata-728b9c.netlify.app/">Click here</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
