@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- To see live Demo  <a href="[https://mellow-cassata-728b9c.netlify.app/"](https://damiandib9.github.io/personal-portfolio/)>Click here</a></p>
+- To see live Demo <a href="https://damiandib9.github.io/personal-portfolio/">Click Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
