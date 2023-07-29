@@ -60,7 +60,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- To see live Demo <a href="https://damiandib9.github.io/personal-portfolio/">Click Here</a>
+- To see live Demo <a href="https://aquamarine-bublanina-8cc5d7.netlify.app/">Click Here</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
