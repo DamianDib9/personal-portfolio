@@ -5,6 +5,57 @@
   overflow-x: hidden;
 }
 
+#popupMobile {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(34, 48, 210, 0.7);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+#crossMobile {
+  margin: 1rem;
+  height: 3rem;
+}
+
+#crossMobile:hover {
+  height: 3.3rem;
+  transition: 0.2rem;
+}
+
+#popListCont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.popMenuLinks {
+  text-decoration: none;
+  color: #fff;
+}
+
+.popMenuLinks:hover {
+  font-size: 101%;
+  transition: 0.2s;
+}
+
+.mobilePopUpList {
+  margin-bottom: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobilePopUpList:hover {
+  font-size: 2.3rem;
+  transition: 0.2s;
+}
+
 .cardsContainer {
   background-color: #ececef;
   display: grid;
@@ -57,6 +108,7 @@ h3 {
   margin-left: -1.4rem;
   height: 101%;
   transition: 0.6s;
+  size: 101%;
 }
 
 .mainSection {
@@ -120,11 +172,13 @@ h3 {
   margin-right: 1rem;
   margin-top: 1rem;
   margin-bottom: -1rem;
+  overflow-y: hidden;
 }
 
 .pictureContainer {
   display: flex;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .canopy {
