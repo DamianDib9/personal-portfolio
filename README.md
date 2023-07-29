@@ -60,9 +60,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <p align="right">(<a href="https://mellow-cassata-728b9c.netlify.app/">Click here</a>)</p>
+- To see live Demo <a href="https://aquamarine-bublanina-8cc5d7.netlify.app/">Click Here</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
